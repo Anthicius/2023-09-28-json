@@ -6,6 +6,48 @@
     <title>Document</title>
 </head>
 <body>
+    <form id="chuckNorris">
+        <div>
+            <label for="selectAPI">Select a category:</label>
+            <select name="selectAPI" id="selectAPI">
+                <option value="animal">animal</option>
+                <option value="career">career</option>
+                <option value="celebrity">celebrity</option>
+                <option value="dev">dev</option>
+                <option value="explicit">explicit</option>
+                <option value="fashion">fashion</option>
+            </select>
+        </div>
+        <div>
+            <button id="getSelectedOption">Press me!!!</button>
+        </div>
+        <div>
+            <label for="textSearch">Enter joke Query:</label>
+            <input type="text" name="textSearch" id="textSearch">
+        </div>
+        <div>
+            <button id="getQueryOption">Press me!!!</button>
+        </div>
+    </form>
+    <form id="dogBreed">
+        <select name="selectDogBreedAPI" id="selectDogBreedAPI">
+        </select>
+        <div>
+            <button id="getDogBreedAPI">Press me!!!</button>
+        </div>
+
+    </form>
+    <form id="fakePerson">
+        <div>
+            <label for="fakeName">Enter Fake Name:</label>
+            <input type="text" name="fakeName" id="fakeName">
+        </div>
+        <div>
+            <button id="getGenerateFakePerson">Press me!!!</button>
+        </div>
+
+    </form>
+    
     
     <script src="script.js"></script>
 </body>
